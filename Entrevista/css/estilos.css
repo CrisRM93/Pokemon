@@ -1,0 +1,22 @@
+ /* Estilos CSS básicos para la interfaz */
+ body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  .pokemon-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+
+  .add-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  .pokemon-card img {
+    max-width: 100%;
+    height: auto;
+  }

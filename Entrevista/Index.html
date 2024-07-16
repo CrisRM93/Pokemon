@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Pokémon</title>
+</head>
+<body>
+  <h1>Pokémon API</h1>
+  <div id="app">
+    <label>
+      Buscar por:
+      <select id="searchBy">
+        <option value="random">ID Aleatorio</option>
+        <option value="id">ID</option>
+        <option value="name">Nombre</option>
+      </select>   
+    </label>
+
+    <input type="text" id="searchInput" placeholder="Ingrese ID o Nombre">
+
+    <button onclick="cargar()">Buscar</button>
+    <div id="pokemonInfo"></div>
+    <div id="addInfo"></div>
+    <div id="moreInfo"></div>
+    <button onclick="showMoreInfo()">Más Información</button>
+    <button onclick="addPokemonToTable()">Añadir a la Tabla</button>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>
